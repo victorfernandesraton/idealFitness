@@ -1,0 +1,24 @@
+body{
+    overflow-x: hidden;
+}
+#area-do-aluno{
+    background-image: url('Imagens/bgAreaDoAluno.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300vh;
+}
+.imagemCards{
+    padding: 15%;
+}
+.card-deck{
+    margin-left: 8% !important;
+}
+.textCard{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#footer{
+    height: 100vh;
+}

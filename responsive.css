@@ -8,3 +8,12 @@
         margin-left: 17% !important;
     }
 }
+
+@media only screen and (min-width: 768px){
+    #area-do-aluno{
+        height: 100vh;
+    }
+    #footer{
+        height: 320px;
+    }
+}

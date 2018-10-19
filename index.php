@@ -21,7 +21,7 @@
                                 <a class="nav-link textoNav" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link textoNav" href="#areaAluno">Área do Aluno</a>
+                                <a class="nav-link textoNav" href="areaDoAluno/areaDoAluno.php">Área do Aluno</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link textoNav" href="#horarios">Horários</a>
