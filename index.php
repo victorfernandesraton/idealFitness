@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <section id="home">
@@ -17,7 +18,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link textoNav" href="#">Teste</a>
+                                <a class="nav-link textoNav" href="#">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link textoNav" href="#areaAluno">Área do Aluno</a>
@@ -35,15 +36,27 @@
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <div class="container btnsSlider">
+                        <div class="btnLaranja btn btn-lg ml-5 no-shadow">Ganhe Massa</div><br>
+                        <button class="btnLaranja btn btn-lg mt-3">Faça sua matrícula</button>
+                    </div>
                     <img class="d-block w-100 imgSlider" src="Imagens/slide1.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
+                    <div class="container btnsSlider">
+                        <div class="btnEmagraca btnLaranja btn btn-lg ml-5 no-shadow">Emagreça</div><br>
+                        <button class="btnLaranja btn btn-lg mt-3">Faça sua matrícula</button>
+                    </div>
                     <img class="d-block w-100 imgSlider" src="Imagens/slide2.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
+                    <div class="container btnsSlider">
+                        <div class="btnLaranja btn btn-lg ml-5 no-shadow">Seja Saudável</div><br>
+                        <button class="btnLaranja btn btn-lg mt-3">Faça sua matrícula</button>
+                    </div>
                     <img class="d-block w-100 imgSlider" src="Imagens/slide3.png" alt="Third slide">
                 </div>
             </div>
@@ -58,7 +71,7 @@
         </div>
         <div class="row col-12">
             <div class="container-fluid ml-5 mt-5">
-                <div class="boxModalidades text-center col-12 col-md-3 float-left mt-5 mb-3">Musculação</div>
+                <div class="btnLaranja boxModalidades text-center col-12 col-md-3 float-left mt-5 mb-3">Musculação</div>
                 <div class="textModalidades col-12 col-sm-9 float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Fusce a sapien eu lectus laoreet dignissim convallis at est. Quisque tempus leo in mauris mattis vehicula. 
                     Morbi velit elit, viverra quis viverra sed, laoreet et mi. Aenean orci sem, aliquet sit amet turpis vel, 
@@ -67,7 +80,7 @@
         </div>
         <div class="row col-12">
             <div class="container-fluid ml-5 mt-5">
-                <div class="boxModalidades text-center col-12 col-md-3 float-right mt-5 mb-3">Crossfit</div>
+                <div class="btnLaranja boxModalidades text-center col-12 col-md-3 float-right mt-5 mb-3">Crossfit</div>
                 <div class="textModalidades col-12 col-sm-9 float-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Fusce a sapien eu lectus laoreet dignissim convallis at est. Quisque tempus leo in mauris mattis vehicula. 
                     Morbi velit elit, viverra quis viverra sed, laoreet et mi. Aenean orci sem, aliquet sit amet turpis vel, 
@@ -76,7 +89,7 @@
         </div>
         <div class="row col-12 mb-5">
             <div class="container-fluid ml-5 mt-5">
-                <div class="boxModalidades text-center col-12 col-md-3 float-left mt-5 mb-3">Fitdance</div>
+                <div class="btnLaranja boxModalidades text-center col-12 col-md-3 float-left mt-5 mb-3">Fitdance</div>
                 <div class="textModalidades col-12 col-sm-9 float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Fusce a sapien eu lectus laoreet dignissim convallis at est. Quisque tempus leo in mauris mattis vehicula. 
                     Morbi velit elit, viverra quis viverra sed, laoreet et mi. Aenean orci sem, aliquet sit amet turpis vel, 
@@ -85,25 +98,25 @@
         </div>
     </section>
     <section id="footer">
-            <div class="container">
-                <div class="row">
+            <div class="col-sm-10 col-lg-6 container">
+                <div class="row ml-3">
                     <ul class="mt-4 col-6 footerUnidades">
                         <li id="footerListHead">Unidades</li>
-                        <li class="ml-2 text-light">Brotas</li>
-                        <li class="ml-2 text-light">Pituba</li>
-                        <li class="ml-2 text-light">Imbui</li>
-                        <li class="ml-2 text-light">Stiep</li>
-                        <li class="ml-2 text-light">Cajazeiras</li>
+                        <a href=""><li class="ml-2 text-light">Brotas</li></a> 
+                        <a href=""><li class="ml-2 text-light">Pituba</li></a> 
+                        <a href=""><li class="ml-2 text-light">Imbui</li></a> 
+                        <a href=""><li class="ml-2 text-light">Stiep</li></a> 
+                        <a href=""><li class="ml-2 text-light">Cajazeiras</li></a> 
                     </ul>
                         <div class="mt-4 col-6 container-fluid">
-                            <h3 class="itemFooter">Área do Aluno</h3>
-                            <h3 class="itemFooter mt-5">Freepass</h3>
+                            <a href=""><h3 class="itemFooter">Área do Aluno</h3></a>
+                            <a href=""><h3 class="itemFooter mt-5">Freepass</h3></a>
                         </div>
                 </div>
-                <div class="itemFooter ml-1 row mt-2">
-                    <img class="col-2 iconesFooter" src="Imagens/insta.png" alt="Icone Instagram">
-                    <img class="col-2 iconesFooter" src="Imagens/facee.png" alt="Icone Facebook">
-                    <h3 class="col-6 offset-2">Telefone: <br> <span class="numTel ml-1 text-light">(12)3456789</span></h3>
+                <div class="row float-right itemFooter mr-5 mr-lg-0 mr-xl-5 mt-2">
+                    <a href=""><img class="mb-5" src="Imagens/instagram.png" alt="Icone Instagram"></a>
+                    <a href=""><img class="mb-5 ml-4" src="Imagens/facebook.png" alt="Icone Facebook"></a>
+                    <h3 class="col-4 col-sm-2 offset-sm-0">Telefone: <br> <span class="numTel ml-1 text-light">(12)3456789</span></h3>
                 </div>
             </div>
     </section>
