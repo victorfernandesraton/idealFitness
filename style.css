@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body{
     background-color: #6f6f6f;
 }
@@ -8,6 +7,8 @@ a:hover{
     text-decoration: none;
     cursor: pointer; 
 }
+
+/* NAVBAR */
 .navbar{
     box-shadow: 2px 2px 5px #313131;
     background-color: #2f2f2f;
@@ -24,7 +25,10 @@ a:hover{
 .logo{
     color: #FFC09D;
 }
-.imgSliders{
+/* NAVBARF FIM */
+
+/* HOME */
+.imgSlider{
     background-attachment: fixed;
 }
 .boxModalidades{
@@ -42,7 +46,29 @@ a:hover{
     color: #DADADA;
     text-shadow: 1px 1px 2px #000000;
 }
-.bgFooter{
+/* HOME FIM */
+
+/* FOOTER */
+#footer{
     background-color: black;
-    height: 25vw;
+    height: 80%;
 }
+#footer li{
+    list-style-type: none;
+}
+#footerListHead{
+    font-size: 1.6em;
+    color: rgb(158, 158, 158);
+}
+.itemFooter{
+    color: rgb(158, 158, 158);
+}
+.numTel{
+    font-size: 0.75em;
+}
+.iconesFooter{
+    height: 100%;
+    width: 50% !important;
+}
+/* FOOTER FIM */
+

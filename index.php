@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
                 <a class="navbar-brand textoNav textoBrand" href="#"><span class="logo">I</span>deal<span class="logo"> F</span>itness</a>
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
@@ -35,16 +35,16 @@
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 imgSliders" src="Imagens/slide1.png" alt="First slide">
+                    <img class="d-block w-100 imgSlider" src="Imagens/slide1.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 imgSliders" src="Imagens/slide2.png" alt="Second slide">
+                    <img class="d-block w-100 imgSlider" src="Imagens/slide2.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 imgSliders" src="Imagens/slide3.png" alt="Third slide">
+                    <img class="d-block w-100 imgSlider" src="Imagens/slide3.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -85,9 +85,27 @@
         </div>
     </section>
     <section id="footer">
-        <div class="bgFooter">
-            Teste
-        </div>
+            <div class="container">
+                <div class="row">
+                    <ul class="mt-4 col-6 footerUnidades">
+                        <li id="footerListHead">Unidades</li>
+                        <li class="ml-2 text-light">Brotas</li>
+                        <li class="ml-2 text-light">Pituba</li>
+                        <li class="ml-2 text-light">Imbui</li>
+                        <li class="ml-2 text-light">Stiep</li>
+                        <li class="ml-2 text-light">Cajazeiras</li>
+                    </ul>
+                        <div class="mt-4 col-6 container-fluid">
+                            <h3 class="itemFooter">Área do Aluno</h3>
+                            <h3 class="itemFooter mt-5">Freepass</h3>
+                        </div>
+                </div>
+                <div class="itemFooter ml-1 row mt-2">
+                    <img class="col-2 iconesFooter" src="Imagens/insta.png" alt="Icone Instagram">
+                    <img class="col-2 iconesFooter" src="Imagens/facee.png" alt="Icone Facebook">
+                    <h3 class="col-6 offset-2">Telefone: <br> <span class="numTel ml-1 text-light">(12)3456789</span></h3>
+                </div>
+            </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
