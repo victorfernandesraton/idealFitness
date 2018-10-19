@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    background-color: #6f6f6f;
+}
+a:hover{
+    color: #F95A00;
+    text-decoration: none;
+    cursor: pointer; 
+}
+.navbar{
+    box-shadow: 2px 2px 5px #313131;
+    background-color: #2f2f2f;
+}
+.textoNav{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color:#F95A00;
+    text-shadow: 2px 2px 5px #000000;
+}
+.textoBrand{
+    font-size: 1.8em;
+}
+.logo{
+    color: #FFC09D;
+}
+.imgSliders{
+    background-attachment: fixed;
+}
+.boxModalidades{
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em; 
+    background-color: #F95A00;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #313131;
+}
+.textModalidades{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em;
+    color: #DADADA;
+    text-shadow: 1px 1px 2px #000000;
+}
+.bgFooter{
+    background-color: black;
+    height: 25vw;
+}
