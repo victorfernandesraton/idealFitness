@@ -1,4 +1,7 @@
 <?php
+// RESETA A SEÇÃO
+session_unset();
+
 // CABEÇARIO
 require_once 'head.php';
 

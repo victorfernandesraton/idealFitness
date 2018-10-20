@@ -1,23 +1,22 @@
 <?php 
-// CRIANDO TRY PARA VERIFICAÇÃO E DEBUG
 
-// O TRY É PARA TRATAR A EXCEÇÃO E INDICAR O ERRO SEM OCORRER ERRO FATAL - É UM ERRO NO TEMPOK DE EXECUÇÃO
+// CONEXÃO
+function db_connect() {
 
-try {
+	// TRY DEBUG
+	try {
+		$cx = new PDO('mysql:'.SQL_HOST.'='.SQL_USER.';dbname=' .SQL_BENCH , SQL_USER, SQL_PASS);
+		return $cx;
+		}
 
-function db_connect()
-{
-require_once '_init.php';
-$cx = new PDO('mysql:'.SQL_HOST.'='.SQL_USER.';dbname=' .SQL_BENCH , SQL_USER, SQL_PASS);
-return $cx;
-}
-}
-catch(PDOexception $e) {
+	// CASO DE ERRO
+	catch(PDOexception $e) {
    
-    // DEBUG QUE OCORRE DE FORMA ORGANIZADA CASO O TRY NÃO OCORRA
-      echo 'ERRO: ' .$e->getCode() . ' Mensagge: ' .$e->getMessage();
-
+    	// DEBUG QUE OCORRE DE FORMA ORGANIZADA CASO O TRY NÃO OCORRA
+    	echo 'ERRO: ' .$e->getCode() . ' Mensagge: ' .$e->getMessage();
 }
+}
+
 
 // DATA DE VENCIMENTO FROM https://www.codigofonte.com.br/codigos/calculando-vencimentos-a-partir-de-uma-data-especifica-em-php
 function CalcularVencimento($data,$dias)
@@ -38,4 +37,39 @@ function CalcularVencimento($data,$dias)
 	{return date('d/m/Y',mktime(0,0,0,$mes,$dia,$ano));}
 	else
 	{return date('d/m/Y',mktime(0,0,0,$mes,$dia+$dias,$ano));}
+}
+
+//FUNÇÃO DE VALIDAÇÃO -- NÃO USADA
+function ValidEmpty($string) {
+	if (empty($string)) {
+		$out = "Campo vazio";
+	} else $out = $string;
+	return $out;
+}
+
+// FUNÇÃO DE VALIDAÇÃO -- NÃO USADA
+function ShowValid($string) {
+	if ($string = "Campo vazio") {
+		$out = "Campo vazio";
+	} else $out = "*";
+	return $out;
+}
+
+// FUNÇÃO QUE VERIFICA LOGIN PARA DAR PERMISSÃO AO CONTEUDO RESTRITO
+function isLoggedIn()
+{
+    if (!isset($_SESSION['login']) || $_SESSION['login'] !== true)
+    {
+        return false;
+    }
+    return true;
+}
+
+// EXPORTAR PARA EXCEL
+function toxls($file) {
+	
+	$filename = $file;
+	header ("Content-type: application/x-msexcel");
+	header ("Content-Disposition: attachment; filename=\"{$filename}\"" );
+	header ("Content-Description: PHP Generated Data" );
 }

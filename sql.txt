@@ -12,7 +12,7 @@ CREATE TABLE aluno (
     tel varchar(18) NOT NULL,
     senha varchar(255) NOT NULL,
     matricula varchar(11) NOT NULL,
-
+    datav date NOT NULL,
     PRIMARY KEY (id)
 
 );
@@ -25,9 +25,8 @@ CREATE TABLE freepass (
     cpf varchar(11) NOT NULL,
     mail varchar(230) NOT NULL,
     tel varchar(18) NOT NULL,
-    senha varchar(255) NOT NULL,
     esporte varchar(230) NOT NULL,
-
+    datac date NOT NULL,
     PRIMARY KEY (id)
 
 );

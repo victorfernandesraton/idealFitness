@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ideal Fitness</title>
-    <?php require 'header.php'?>
-</head>
-<body>
+<?php require_once "head.php";?>
     <section id="home">
-        <?php require 'navbar.php'?>
         <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -68,6 +61,4 @@
             </div>
         </div>
     </section>
-    <?php require 'footer.php'?>
-</body>
-</html>
+    <?php require_once 'footer.php';?>

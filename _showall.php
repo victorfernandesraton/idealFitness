@@ -1,25 +1,32 @@
 <?php
+session_start();
+require_once '_init.php';
+
 // CABEÇARIO
 require_once 'head.php';
 
-// MOSTRAR TODOS 
+//VERIFICAR SEÇÃO
+if (!isLoggedIn())
+{
+    header('Location: login.php');
+}
 
 // CONEXÃO
-require_once '_init.php';
 $cx = db_connect();
 
 // QUERY ALUNOS
-$query1 = "SELECT id,nome,cpf,mail,tel FROM aluno";
+$query1 = "SELECT id,nome,cpf,mail,tel,senha FROM aluno";
 $stmt1 = $cx->prepare($query1);
 $stmt1->execute();
 
-// QUERY ALUNOS
+// QUERY freepass
 $query2 = "SELECT id,nome,cpf,mail,tel,esporte FROM freepass";
 $stmt2 = $cx->prepare($query2);
 $stmt2->execute();
 
-?>
 
+?>
+<!-- HTML -->
 <!doctype html>
 <html>
     <head>
@@ -46,7 +53,9 @@ $stmt2->execute();
              <th>CPF</th>
              <th>Email</th>
              <th>TEL</th>
+             <th>senha</th>
              <th>EDITAR</th>
+             
              </tr>
      </thead>
      <tbody>
@@ -58,6 +67,7 @@ $stmt2->execute();
             <td><?php echo $user1['cpf'] ?></td>
             <td><?php echo $user1['mail'] ?></td>
             <td><?php echo $user1['tel'] ?></td>
+            <td><?php echo $user1['senha'] ?></td>
             <td>
             <a href="delete_alunos.php?id=<?php echo $user['id'] ?>" onclick="return confirm('Tem certeza de que deseja remover?');">Remover</a>
             <br><a href="form-edit.php?id=<?php echo $user['id'] ?>">Editar (NÃO CLIQUE)</a>
@@ -100,3 +110,11 @@ $stmt2->execute();
          <?php endwhile; ?>
      </tbody>
  </table>
+ <br>
+ <a href = './_logout.php'>SAIR</a> <br>
+ <a href = './_xls.php'>Gerar tabela </a>
+ 
+<?php
+
+// FOOTER
+require_once 'footer.php';
