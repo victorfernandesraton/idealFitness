@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Unidades</title>
-    <link rel="stylesheet" href="styleUnidades.css">
-    <?php require '../header.php'?>
+    <link rel="stylesheet" href="../CSS/styleUnidades.css">
+    <?php require '../arquivosRequire/header.php'?>
 </head>
 <body>
-    <?php require '../navbar.php' ?>
+<?php require '../arquivosRequire/navbar.php'?>
     <section class="container mt-5">
         <h1 class="no-shadow text-light text-center tituloUnidades ml-5">Nossas Unidades</h1>
         <div class="card-deck ml-5 row justify-content-center mt-5">
@@ -49,6 +49,6 @@
             </div>
         </div>
     </section>
-   <?php require '../footer.php' ?>
+    <?php require '../arquivosRequire/footer.php'?>
 </body>
 </html>

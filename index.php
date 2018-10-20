@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Ideal Fitness</title>
-    <?php require 'header.php'?>
+    <?php require 'arquivosRequire/header.php'?>
 </head>
 <body>
     <section id="home">
-        <?php require 'navbar.php'?>
+        <?php require 'arquivosRequire/navbar.php'?>
         <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -68,6 +68,6 @@
             </div>
         </div>
     </section>
-    <?php require 'footer.php'?>
+    <?php require 'arquivosRequire/footer.php'?>
 </body>
 </html>

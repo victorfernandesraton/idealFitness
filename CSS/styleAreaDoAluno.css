@@ -2,11 +2,11 @@ body{
     overflow-x: hidden;
 }
 #area-do-aluno{
-    background-image: url('Imagens/bgAreaDoAluno.jpg');
+    background-image: url('/idealFitness/Imagens/bgAreaDoAluno.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300vh;
+    height: 200vh;
 }
 .imagemCards{
     padding: 15%;
@@ -20,5 +20,5 @@ body{
     letter-spacing: 1px;
 }
 #footer{
-    height: 100vh;
+    height: 50vh;
 }

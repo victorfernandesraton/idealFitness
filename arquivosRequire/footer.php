@@ -15,8 +15,8 @@
                         </div>
                 </div>
                 <div class="row float-right itemFooter mr-5 mr-lg-0 mr-xl-5 mt-2">
-                    <a href=""><img class="mb-5" src="Imagens/instagram.png" alt="Icone Instagram"></a>
-                    <a href=""><img class="mb-5 ml-4" src="Imagens/facebook.png" alt="Icone Facebook"></a>
+                    <a href=""><img class="mb-5" src="/idealFitness/Imagens/instagram.png" alt="Icone Instagram"></a>
+                    <a href=""><img class="mb-5 ml-4" src="/idealFitness/Imagens/facebook.png" alt="Icone Facebook"></a>
                     <h3 class="col-4 col-sm-2 offset-sm-0">Telefone: <br> <span class="numTel ml-1 text-light">(12)3456789</span></h3>
                 </div>
             </div>
