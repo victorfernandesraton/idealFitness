@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    background-color: #6f6f6f;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 5px #000000;
+}
+a:hover{
+    color: #F95A00;
+    text-decoration: none;
+    cursor: pointer; 
+}
+.btnLaranja{
+    color: #2f2f2f;
+    background-color: #F95A00;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #313131;
+}
+.no-shadow{
+    text-shadow: none;
+}
+.yes-shadow{
+    box-shadow: 2px 2px 5px #313131 !important;
+}
+/* NAVBAR */
+.navbar{
+    box-shadow: 2px 2px 5px #313131;
+    background-color: #2f2f2f;
+}
+.textoNav{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color:#F95A00;
+    text-shadow: 2px 2px 5px #000000;
+}
+.textoBrand{
+    font-size: 1.8em;
+}
+.logo{
+    color: #FFC09D;
+}
+/* NAVBARF FIM */
+
+/* HOME */
+.imgSlider{
+    background-attachment: fixed;
+}
+.btnsSlider{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 45%;
+}
+.btnEmagraca{
+    margin-left: 17% !important;
+}
+.boxModalidades{
+    width: 50%;
+    font-size: 2em;
+    text-shadow: none;
+}
+.textModalidades{
+    text-align: justify;
+    font-size: 1.7em;
+    color: #DADADA;
+}
+/* HOME FIM */
+
+/* FOOTER */
+#footer{
+    position: relative;
+    background-color: black;
+    height: 65vh;
+}
+#footer li{
+    list-style-type: none;
+}
+#footerListHead{
+    font-size: 1.6em;
+    color: rgb(158, 158, 158);
+}
+.itemFooter{
+    color: rgb(158, 158, 158);
+}
+.numTel{
+    font-size: 0.75em;
+}
+/* FOOTER FIM */
+
