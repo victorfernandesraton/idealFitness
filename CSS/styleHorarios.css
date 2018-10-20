@@ -1,0 +1,11 @@
+#horarios{
+    background-image: url('/idealFitness/Imagens/bgHorarios.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.tabela2{
+    margin-left: 25%;
+}
