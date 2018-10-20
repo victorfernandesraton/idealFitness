@@ -1,3 +1,19 @@
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .cardsTriplo{
+        height: 90px;
+    }
+    .textoTriplo{
+        display: none;
+    }
+    .cajazeiras{
+        font-size: 1em;
+        margin-left: -30%;
+    }
+    .linkTriplo{
+        position: relative;
+        left: 50%;
+    }
+}
 @media only screen and (min-width: 600px){
     .btnsSlider{
         position: absolute;
@@ -9,11 +25,15 @@
     }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     #area-do-aluno{
         height: 100vh;
     }
     #footer{
         height: 320px;
+    }
+    .tituloUnidades{
+        position: relative;
+        margin-top: 11%;
     }
 }
