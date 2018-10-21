@@ -13,6 +13,9 @@
         position: relative;
         left: 50%;
     }
+    .btnEnviar{
+        margin-top: 7.3rem !important;
+    }
 }
 @media only screen and (min-width: 600px){
     .btnsSlider{
@@ -35,5 +38,8 @@
     .tituloUnidades{
         position: relative;
         margin-top: 11%;
+    }
+    .btnEnviar{
+        margin-top: 7.3rem !important;
     }
 }

@@ -1,0 +1,17 @@
+.cadastroNovoAluno{
+    margin-top: 4.33rem !important;
+    background-image: url('/idealFitness/Imagens/cadastroNovoAlunoBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.titulo{
+    position: relative;
+    top: 4%;
+}
+.btnEnviar{
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+}

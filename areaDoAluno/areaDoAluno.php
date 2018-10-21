@@ -10,27 +10,27 @@
     <section id="area-do-aluno">
         <div class="card-deck mt-5 ml-5">
             <div class="mt-5 col-12 col-md-4">
-                <div class="card btnLaranja no-shadow" style="width: 18rem;">
+                <a href="/idealFitness/CadastroNovoAluno/cadastroNovoAluno.php"><div class="card btnLaranja no-shadow" style="width: 18rem;">
                     <img class="imagemCards card-img-top ml-1 mt-2" src="../Imagens/IconeNovo.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text text-center textCard">Novo Aluno</p>
-                    </div>
+                        <p class="card-text text-center text-dark textCard">Novo Aluno</p>
+                    </div></a>
                 </div>
             </div>
             <div class="mt-5 col-12 col-md-4">
-                <div class="card btnLaranja no-shadow" style="width: 18rem;">
+                <a href="/idealFitness/CadastroFreepass/cadastroFreepass.php"><div class="card btnLaranja no-shadow" style="width: 18rem;">
                     <img class="imagemCards card-img-top ml-1 mt-2" src="../Imagens/IconeFP.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text text-center textCard">Freepass</p>
-                    </div>
+                        <p class="card-text text-center text-dark textCard">Freepass</p>
+                    </div></a>
                 </div>
             </div>
             <div class="mt-5 col-12 col-md-4">
-                <div class="card btnLaranja no-shadow" style="width: 18rem;">
+                <a href="#"><div class="card btnLaranja no-shadow" style="width: 18rem;">
                     <img class="imagemCards card-img-top ml-1 mt-2" src="../Imagens/IconeFinan.png" alt="Card image cap">
                     <div class="card-body">
-                        <p class="card-text text-center textCard">Financeiro</p>
-                    </div>
+                        <p class="card-text text-center text-dark textCard">Financeiro</p>
+                    </div></a>
                 </div>
             </div>
         </div>

@@ -1,16 +1,22 @@
 .sobre{
-    margin-top: 6rem !important;
+    margin-top: 4.33rem !important;
     background-image: url('/idealFitness/Imagens/sobreBg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 160vh;
 }
 .murilo{
-    height: 20%;
-    width: 80%;
+    border-radius: 60px;
 }
 .background{
+    border-radius: 20px;
     background-color: #DADADA;
     width: 80%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.textoMurilo{
+    font-size: 1.2em;
 }
