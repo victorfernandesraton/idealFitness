@@ -30,12 +30,10 @@
     </section>
     <?php require '../arquivosRequire/footer.php'?>
     <script>
-        $.ajax({
             $(".btnEntrar").click(function(){
                 $(".quadro1").hide();
                 $(".quadro2").show();
             });
-        });
     </script>
 </body>
 </html>
