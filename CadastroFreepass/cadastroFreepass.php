@@ -15,17 +15,17 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-4">
                             <div class="form-group">
-                                <input type="text" name="nome" class="mt-2 form-control" placeholder="Nome">
-                                <input type="text" name="cpf" class="mt-2 form-control" placeholder="CPF">
-                                <input type="email" name="email" class="mt-2 form-control" placeholder="Email">
-                                <input type="email" name="confirmeEmail" class="mt-2 form-control" placeholder="Confirme seu email">
-                                <input type="text" name="telefone" class="mt-2 form-control" placeholder="Telefone">
+                                <input type="text" name="nome" class="yes-shadow mt-2 form-control" placeholder="Nome">
+                                <input type="text" name="cpf" class="yes-shadow mt-2 form-control" placeholder="CPF">
+                                <input type="email" name="email" class="yes-shadow mt-2 form-control" placeholder="Email">
+                                <input type="email" name="confirmeEmail" class="yes-shadow mt-2 form-control" placeholder="Confirme seu email">
+                                <input type="text" name="telefone" class="yes-shadow mt-2 form-control" placeholder="Telefone">
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-4">
                             <label class="no-shadow text-secondary font-weight-bold" for="esporte">Já praticou algum esporte?</label>
                             <input type="text" class="form-control" name="esporte" placeholder="Senha">
-                            <input type="submit" class="btn btnLaranja mt-2 btnEnviar float-right" value="Enviar">
+                            <input type="submit" class="btn btnLaranja yes-shadow mt-2 btnEnviar float-right" value="Enviar">
                         </div>
                     </div>
                 </form>

@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="mt-5 col-12 col-md-4">
-                <a href="#"><div class="card btnLaranja no-shadow" style="width: 18rem;">
+                <a href="/idealFitness/Financeiro/financeiro.php"><div class="card btnLaranja no-shadow" style="width: 18rem;">
                     <img class="imagemCards card-img-top ml-1 mt-2" src="../Imagens/IconeFinan.png" alt="Card image cap">
                     <div class="card-body">
                         <p class="card-text text-center text-dark textCard">Financeiro</p>

@@ -8,9 +8,9 @@
 <body>
 <?php require '../arquivosRequire/navbar.php' ?>
     <section class="sobre">
-        <div class="no-shadow ml-4 row container-fluid align-items-center background">
+        <div class="ml-4 row container-fluid align-items-center background">
             <img class="murilo col-12 col-lg-6 p-5" src="/idealFitness/Imagens/murilo.jpeg" alt="Murilo">
-            <p class="textoMurilo col-12 col-lg-6 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <p class="no-shadow textoMurilo col-12 col-lg-6 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Duis magna tellus, varius vitae venenatis quis, placerat a nisl. 
                 Sed nec aliquam eros. Suspendisse eget tempus ante, lobortis viverra urna. 
                 Suspendisse quam enim, ornare in justo at, porta malesuada quam. 

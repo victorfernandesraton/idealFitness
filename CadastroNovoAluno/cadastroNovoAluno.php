@@ -15,17 +15,17 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-4">
                             <div class="form-group">
-                                <input type="text" class="mt-2 form-control" placeholder="Nome">
-                                <input type="text" class="mt-2 form-control" placeholder="CPF">
-                                <input type="email" class="mt-2 form-control" placeholder="Email">
-                                <input type="email" class="mt-2 form-control" placeholder="Confirme seu email">
-                                <input type="text" class="mt-2 form-control" placeholder="Telefone">
+                                <input type="text" class="yes-shadow mt-2 form-control" placeholder="Nome">
+                                <input type="text" class="yes-shadow mt-2 form-control" placeholder="CPF">
+                                <input type="email" class="yes-shadow mt-2 form-control" placeholder="Email">
+                                <input type="email" class="yes-shadow mt-2 form-control" placeholder="Confirme seu email">
+                                <input type="text" class="yes-shadow mt-2 form-control" placeholder="Telefone">
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-lg-4">
-                            <input type="password" class="mt-2 form-control" placeholder="Senha">
-                            <input type="password" class="mt-2 form-control" placeholder="Confirme a senha">
-                            <input type="submit" class="btn btnLaranja mt-2 btnEnviar float-right" value="Enviar">
+                            <input type="password" class="yes-shadow mt-2 form-control" placeholder="Senha">
+                            <input type="password" class="yes-shadow mt-2 form-control" placeholder="Confirme a senha">
+                            <input type="submit" class="yes-shadow btn btnLaranja mt-2 btnEnviar float-right" value="Enviar">
                         </div>
                     </div>
                 </form>

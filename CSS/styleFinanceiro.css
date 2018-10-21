@@ -1,0 +1,14 @@
+.financeiro{
+    margin-top: 4.33rem !important;
+    background-image: url('/idealFitness/Imagens/financeiroBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.quadro{
+    top: 30%;
+}
+.btnEntrar{
+    margin-left: 38%;
+}
