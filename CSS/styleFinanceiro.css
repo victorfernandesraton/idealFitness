@@ -11,14 +11,13 @@
     top: -2vh;
 }
 .quadro1{
-    /* display: block; */
     top: 30%;
 }
 .btnEntrar{
     margin-left: 38%;
 }
 .quadro2{
-    display: none;
+    display: block;
     position: relative;
     top: 15vh;
 }
