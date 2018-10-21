@@ -6,9 +6,22 @@
     background-position: center;
     height: 100vh;
 }
-.quadro{
+.tituloConsulta{
+    position: relative;
+    top: -2vh;
+}
+.quadro1{
+    /* display: block; */
     top: 30%;
 }
 .btnEntrar{
     margin-left: 38%;
+}
+.quadro2{
+    display: none;
+    position: relative;
+    top: 15vh;
+}
+ul li{
+    list-style-type: none;
 }
