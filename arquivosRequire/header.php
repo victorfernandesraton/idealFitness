@@ -4,3 +4,4 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="/idealFitness/CSS/style.css">
     <link rel="stylesheet" href="/idealFitness/CSS/responsive.css">
+    

@@ -1,0 +1,32 @@
+//CRIANDO O BANCO DE DADOS
+CREATE DATABASE idealfitness;
+
+//CRIANDO TABELA DE ALUNOS
+
+CREATE TABLE aluno (
+
+    id int (11) NOT NULL AUTO_INCREMENT,
+    nome varchar(25) NOT NULL,
+    cpf varchar(11) NOT NULL,
+    mail varchar(230) NOT NULL,
+    tel varchar(18) NOT NULL,
+    senha varchar(255) NOT NULL,
+    matricula varchar(11) NOT NULL,
+    datav date NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+//CRIANDO TABELA PARA USUARIOS FREEPASS
+CREATE TABLE freepass (
+
+    id int (11) NOT NULL AUTO_INCREMENT,
+    nome varchar(25) NOT NULL,
+    cpf varchar(11) NOT NULL,
+    mail varchar(230) NOT NULL,
+    tel varchar(18) NOT NULL,
+    esporte varchar(230) NOT NULL,
+    datac date NOT NULL,
+    PRIMARY KEY (id)
+
+);

@@ -1,3 +1,9 @@
+<?php
+session_start();
+$_SESSION['login'] = false;
+$redirect = "../index.php";
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
