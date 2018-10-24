@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['login'] = false;
+session_destroy();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +13,7 @@
 <body>
 <?php require '../arquivosRequire/navbar.php'?>
     <section id="area-do-aluno">
-        <div class="card-deck mt-5 ml-5">
+        <div class="card-deck mt-5 ml-sm-5">
             <div class="mt-5 col-12 col-md-4">
                 <a href="/idealFitness/CadastroNovoAluno/cadastroNovoAluno.php"><div class="card btnLaranja no-shadow" style="width: 18rem;">
                     <img class="imagemCards card-img-top ml-1 mt-2" src="../Imagens/IconeNovo.png" alt="Card image cap">
@@ -36,5 +41,10 @@
         </div>
     </section>
     <?php require '../arquivosRequire/footer.php'?>
+    <script>
+        document.getElementById("scrollSpyAluno").style.backgroundColor = "#F95A00";
+        document.getElementById("scrollSpyAluno").style.color = "#313131";
+        document.getElementById("spanAluno").style.textShadow = "none";
+    </script>
 </body>
 </html>

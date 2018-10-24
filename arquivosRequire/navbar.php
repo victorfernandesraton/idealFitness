@@ -5,19 +5,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link textoNav" href="/idealFitness/index.php">Home</a>
+                        <a id="scrollSpyHome" class="rounded nav-link textoNav" href="/idealFitness/index.php"><span id="spanHome" class="">Home</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textoNav" href="/idealFitness/areaDoAluno/areaDoAluno.php">Área do Aluno</a>
+                        <a id="scrollSpyAluno" class="rounded nav-link textoNav" href="/idealFitness/areaDoAluno/areaDoAluno.php"><span id="spanAluno" class="">Área do Aluno</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textoNav" href="/idealFitness/Horários/horarios.php">Horários</a>
+                        <a id="scrollSpyHorarios" class="rounded nav-link textoNav" href="/idealFitness/Horários/horarios.php"><span id="spanHorarios" class="">Horários</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textoNav" href="/idealFitness/Unidades/unidades.php">Unidades</a>
+                        <a id="scrollSpyUnidades" class="rounded nav-link textoNav" href="/idealFitness/Unidades/unidades.php"><span id="spanUnidades" class="">Unidades</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link textoNav" href="/idealFitness/Sobre/sobre.php">Sobre</a>
+                        <a id="scrollSpySobre" class="rounded nav-link textoNav" href="/idealFitness/Sobre/sobre.php"><span id="spanSobre" class="">Sobre</span></a>
                     </li>
                 </ul>
         </div>

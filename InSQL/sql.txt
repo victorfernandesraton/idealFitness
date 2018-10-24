@@ -1,0 +1,45 @@
+//CRIANDO O BANCO DE DADOS
+CREATE DATABASE idealfitness;
+
+//CRIANDO TABELA DE ALUNOS
+
+CREATE TABLE aluno (
+
+    id int (8) NOT NULL AUTO_INCREMENT,
+    nome varchar(25) NOT NULL,
+    cpf varchar(13) NOT NULL,
+    mail varchar(230) NOT NULL,
+    tel varchar(18) NOT NULL,
+    senha varchar(255) NOT NULL,
+    datav date NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+INSERT INTO aluno (id,nome) VALUES ('10000000','BLANKUSER');
+
+
+
+//CRIANDO TABELA PARA USUARIOS FREEPASS
+CREATE TABLE freepass (
+
+    id int (8) NOT NULL AUTO_INCREMENT,
+    nome varchar(25) NOT NULL,
+    cpf varchar(13) NOT NULL,
+    mail varchar(230) NOT NULL,
+    tel varchar(18) NOT NULL,
+    esporte varchar(230) NOT NULL,
+    datac date NOT NULL,
+    PRIMARY KEY (id)
+
+);
+
+CREATE TABLE admin (
+    id int (11) NOT NULL AUTO_INCREMENT,
+    mail varchar(230) NOT NULL,
+    senha varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+ATENÇÃO !!!! ABAIX SEGUE O LOGIN E SENHA DO ADMIN
+INSERT INTO admin (mail,senha) VALUES ("admin","d033e22ae348aeb5660fc2140aec35850c4da997");

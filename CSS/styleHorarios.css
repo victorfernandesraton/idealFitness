@@ -5,7 +5,24 @@
     background-position: center;
     height: 100vh;
 }
-
-.tabela2{
-    margin-left: 25%;
+.tabelaHorarios{
+    position: relative;
+    top: 15vh;
+    font-size: 1.5em;
+    color: rgb(42, 42, 42);
+}
+.tabelaResponsiva{
+    top: 10% !important;
+    position: relative !important;
+    height: 42% !important;
+}
+.tabelaFundo{
+    background-color: #C4C4C4; 
+}
+.laranjaModificado{
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #2F2F2F;
 }
